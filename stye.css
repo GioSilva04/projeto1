@@ -1,0 +1,51 @@
+nav{
+    background-color: rgb(169, 61, 18);
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px auto;
+    margin: 0 auto;
+
+}
+
+.titulo{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.menu-links{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.menu-links a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.menu-links a:hover{
+    color: aquamarine;
+
+}
+
+.hero{
+    background-color: coral;
+    color: antiquewhite;
+    text-align: center;
+    padding: 100px 24px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 32px auto;
+    color: burlywood;
+}
