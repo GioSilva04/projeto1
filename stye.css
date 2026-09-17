@@ -49,3 +49,30 @@ nav{
     margin: 0 auto 32px auto;
     color: burlywood;
 }
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    background-color: coral;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: burlywood;
+    color: antiquewhite;
+    margin: 0;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    background-color: rgb(169, 61, 18);
+    color:antiquewhite;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    padding: 40px;
+    flex: 1 1;
+}
