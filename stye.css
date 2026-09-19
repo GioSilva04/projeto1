@@ -1,5 +1,5 @@
 nav{
-    background-color: rgb(169, 61, 18);
+    background-color: rgb(53, 173, 248);
     padding: 0 24px;
     display: flex;
     justify-content: space-between;
@@ -32,8 +32,8 @@ nav{
 }
 
 .hero{
-    background-color: coral;
-    color: antiquewhite;
+    background-color: #fff;
+    color: rgb(66, 80, 235);
     text-align: center;
     padding: 100px 24px;
 }
@@ -47,7 +47,7 @@ nav{
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto 32px auto;
-    color: burlywood;
+    color: rgb(66, 80, 235);
 }
 
 .cards-container{
@@ -55,13 +55,13 @@ nav{
     flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
-    background-color: coral;
+    background-color: #fff;
 }
 
 .section-title{
     font-size: 1.5rem;
     text-align: center;
-    background-color: burlywood;
+    background-color: rgb(53, 173, 248);
     color: antiquewhite;
     margin: 0;
     padding: 15px;
@@ -69,10 +69,36 @@ nav{
 }
 
 .card{
-    background-color: rgb(169, 61, 18);
+    background-color: rgb(66, 80, 235);
     color:antiquewhite;
     border: 1px solid #fff;
     border-radius: 200px;
     padding: 40px;
     flex: 1 1;
+}
+
+.cta{
+    background-color: #fff;
+    color: rgb(53, 173, 248);
+    text-align: center;
+    padding: 100px 24px;
+}
+
+.footer {
+    background-color: rgb(53, 173, 248);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.social-link a {
+    text-decoration: none;
 }
